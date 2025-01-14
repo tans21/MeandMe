@@ -6,7 +6,7 @@ var score = 0;
 
 var userName = readlineSync.question(chalk.blue("What is your name? "));
 console.log(chalk.rgb(255, 136, 0).bold("Welcome ") + chalk.rgb(255, 136, 0).bold(userName));
-console.log(chalk.rgb(255, 136, 0).bold("DO YOU KNOW ")+chalk.rgb(255, 136, 0).bold.underline("ANSHIKA")+chalk.rgb(255, 136, 0).bold(" !!!"));
+console.log(chalk.rgb(255, 136, 0).bold("Let's check how well you know your friend")+chalk.rgb(255, 136, 0).bold.underline("ANSHIKA")+chalk.rgb(255, 136, 0).bold(" !!!"));
 console.log("---------------------------")
 
 
@@ -30,10 +30,10 @@ var questions = [{
   answer: "india"
 }, {
   question: "What's my favourite colour? ",
-  answer: "Red"
+  answer: "Yellow"
 }, {
   question: "How old I am? ",
-  answer: "21"
+  answer: "22"
 }, {
   question: "What is my proffession? ",
   answer: "engineer"
