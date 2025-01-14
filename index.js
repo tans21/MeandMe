@@ -6,7 +6,7 @@ var score = 0;
 
 var userName = readlineSync.question(chalk.blue("What is your name? "));
 console.log(chalk.rgb(255, 136, 0).bold("Welcome ") + chalk.rgb(255, 136, 0).bold(userName));
-console.log(chalk.rgb(255, 136, 0).bold("Let's check how well you know your friend")+chalk.rgb(255, 136, 0).bold.underline("ANSHIKA")+chalk.rgb(255, 136, 0).bold(" !!!"));
+console.log(chalk.rgb(255, 136, 0).bold("Let's check how well you know your friend ")+chalk.rgb(255, 136, 0).bold.underline("ANSHIKA")+chalk.rgb(255, 136, 0).bold(" !!!"));
 console.log("---------------------------")
 
 
